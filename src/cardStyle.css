@@ -22,6 +22,7 @@
     font-family: "JetBrains Mono", monospace;
 }
 .card-container1{
+    overflow: hidden;
     width: 800px;
     margin: 50px;
     display: flex;
