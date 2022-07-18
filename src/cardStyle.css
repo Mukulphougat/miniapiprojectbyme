@@ -1,0 +1,61 @@
+.card-container{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    align-items: flex-start;
+}
+.card-container > div {
+    font-size: 20px;
+    font-family: "JetBrains Mono", monospace;
+    margin-bottom: 0;
+}
+@media all and (max-width: 600px) {
+    .card-container {
+        margin: auto;
+        width: 250px;
+    }
+}
+.name{
+    font-family: "JetBrains Mono", monospace;
+}
+.card-container1{
+    width: 800px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid blanchedalmond;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    align-items: center;
+}
+.profile{
+    border-radius: 50px;
+    /*float: left;*/
+    margin: auto;
+}
+.info{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20px;
+    /*border: 2px solid;*/
+}
+.info > * {
+    margin-top: 0;
+    padding-top: 0;
+}
+.name{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: red;
+    font-family: "JetBrains Mono", monospace;
+}
+.details{
+    font-size: 1.2rem;
+    font-family: "JetBrains Mono", monospace;
+}
