@@ -6,6 +6,7 @@
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     align-items: flex-start;
 }
+/**/
 .card-container > div {
     font-size: 20px;
     font-family: "JetBrains Mono", monospace;
