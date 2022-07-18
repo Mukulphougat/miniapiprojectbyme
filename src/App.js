@@ -48,9 +48,9 @@ function App() {
             data.map((curr, index) => {
               return (
                   <div className={"card-container"} onClick={() => setChange(curr,index)} key={index}>
-                    <div>{curr.gender}.{curr.nat}</div>
-                    <div>{curr.name.title+" "+curr.name.first+" "+curr.name.last}</div>
-                    <div>{curr.email}</div>
+                    <div className={"c-details"}>{curr.gender}.{curr.nat}</div>
+                    <div className={"c-details"}>{curr.name.title+" "+curr.name.first+" "+curr.name.last}</div>
+                    <div className={"c-details"}>{curr.email}</div>
                   </div>
               )
             })
