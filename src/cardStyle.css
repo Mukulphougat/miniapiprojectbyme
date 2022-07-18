@@ -33,6 +33,14 @@
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     align-items: center;
 }
+@media screen and (max-width: 600px) {
+    .card-container1 {
+        width: 300px;
+    }
+    .name {
+        font-size: 1rem;
+    }
+}
 .profile{
     border-radius: 50px;
     /*float: left;*/
